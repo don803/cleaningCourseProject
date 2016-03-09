@@ -1,95 +1,96 @@
-This process creates a dataset of means and standard deviations
+## This process creates a dataset of means and standard deviations
 
-30 subjects were monitored and are identified by in the subject column.
+### 30 subjects were monitored and are identified by in the subject column.
 
-Activities are as described below
-"WALKING"
-"WALKING_UPSTAIRS"
-"WALKING_DOWNSTAIRS"
-"SITTING"
-"STANDING"
-"LAYING"
+### Activities are as described below
 
-columns are as listed below
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
 
-subject
-activity
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStandardDeviationX
-tBodyAccStandardDeviationY
-tBodyAccStandardDeviationZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStandardDeviationX
-tGravityAccStandardDeviationY
-tGravityAccStandardDeviationZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStandardDeviationX
-tBodyAccJerkStandardDeviationY
-tBodyAccJerkStandardDeviationZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStandardDeviationX
-tBodyGyroStandardDeviationY
-tBodyGyroStandardDeviationZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStandardDeviationX
-tBodyGyroJerkStandardDeviationY
-tBodyGyroJerkStandardDeviationZ
-tBodyAccMagMean
-tBodyAccMagStandardDeviation
-tGravityAccMagMean
-tGravityAccMagStandardDeviation
-tBodyAccJerkMagMean
-tBodyAccJerkMagStandardDeviation
-tBodyGyroMagMean
-tBodyGyroMagStandardDeviation
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStandardDeviation
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStandardDeviationX
-fBodyAccStandardDeviationY
-fBodyAccStandardDeviationZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStandardDeviationX
-fBodyAccJerkStandardDeviationY
-fBodyAccJerkStandardDeviationZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStandardDeviationX
-fBodyGyroStandardDeviationY
-fBodyGyroStandardDeviationZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStandardDeviation
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStandardDeviation
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStandardDeviation
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStandardDeviation
-fBodyBodyGyroJerkMagMeanFreq
+### columns are as listed below
+
+- subject
+- activity
+- tBodyAccMeanX
+- tBodyAccMeanY
+- tBodyAccMeanZ
+- tBodyAccStandardDeviationX
+- tBodyAccStandardDeviationY
+- tBodyAccStandardDeviationZ
+- tGravityAccMeanX
+- tGravityAccMeanY
+- tGravityAccMeanZ
+- tGravityAccStandardDeviationX
+- tGravityAccStandardDeviationY
+- tGravityAccStandardDeviationZ
+- tBodyAccJerkMeanX
+- tBodyAccJerkMeanY
+- tBodyAccJerkMeanZ
+- tBodyAccJerkStandardDeviationX
+- tBodyAccJerkStandardDeviationY
+- tBodyAccJerkStandardDeviationZ
+- tBodyGyroMeanX
+- tBodyGyroMeanY
+- tBodyGyroMeanZ
+- tBodyGyroStandardDeviationX
+- tBodyGyroStandardDeviationY
+- tBodyGyroStandardDeviationZ
+- tBodyGyroJerkMeanX
+- tBodyGyroJerkMeanY
+- tBodyGyroJerkMeanZ
+- tBodyGyroJerkStandardDeviationX
+- tBodyGyroJerkStandardDeviationY
+- tBodyGyroJerkStandardDeviationZ
+- tBodyAccMagMean
+- tBodyAccMagStandardDeviation
+- tGravityAccMagMean
+- tGravityAccMagStandardDeviation
+- tBodyAccJerkMagMean
+- tBodyAccJerkMagStandardDeviation
+- tBodyGyroMagMean
+- tBodyGyroMagStandardDeviation
+- tBodyGyroJerkMagMean
+- tBodyGyroJerkMagStandardDeviation
+- fBodyAccMeanX
+- fBodyAccMeanY
+- fBodyAccMeanZ
+- fBodyAccStandardDeviationX
+- fBodyAccStandardDeviationY
+- fBodyAccStandardDeviationZ
+- fBodyAccMeanFreqX
+- fBodyAccMeanFreqY
+- fBodyAccMeanFreqZ
+- fBodyAccJerkMeanX
+- fBodyAccJerkMeanY
+- fBodyAccJerkMeanZ
+- fBodyAccJerkStandardDeviationX
+- fBodyAccJerkStandardDeviationY
+- fBodyAccJerkStandardDeviationZ
+- fBodyAccJerkMeanFreqX
+- fBodyAccJerkMeanFreqY
+- fBodyAccJerkMeanFreqZ
+- fBodyGyroMeanX
+- fBodyGyroMeanY
+- fBodyGyroMeanZ
+- fBodyGyroStandardDeviationX
+- fBodyGyroStandardDeviationY
+- fBodyGyroStandardDeviationZ
+- fBodyGyroMeanFreqX
+- fBodyGyroMeanFreqY
+- fBodyGyroMeanFreqZ
+- fBodyAccMagMean
+- fBodyAccMagStandardDeviation
+- fBodyAccMagMeanFreq
+- fBodyBodyAccJerkMagMean
+- fBodyBodyAccJerkMagStandardDeviation
+- fBodyBodyAccJerkMagMeanFreq
+- fBodyBodyGyroMagMean
+- fBodyBodyGyroMagStandardDeviation
+- fBodyBodyGyroMagMeanFreq
+- fBodyBodyGyroJerkMagMean
+- fBodyBodyGyroJerkMagStandardDeviation
+- fBodyBodyGyroJerkMagMeanFreq
